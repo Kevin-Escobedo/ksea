@@ -6,9 +6,10 @@
 #Decrement item use when used
 
 class Item:
-    def __init__(self, name:str = "", uses:int = 0):
+    def __init__(self, name:str = "", uses:int = 0, price:float = 0.00):
         self.name = name
         self.uses = uses
+        self.price = price
         self.broken = False
 
     def check_broken(self) -> bool:
