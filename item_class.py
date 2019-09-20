@@ -2,7 +2,7 @@
 #Email: escobedo001@gmail.com
 
 #TODO:
-#Add item effects?
+#Add item effects
 #Decrement item use when used
 
 class Item:
