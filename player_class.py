@@ -3,10 +3,12 @@
 from bag_class import Inventory, Item
 
 class Player:
-    def __init__(self, name:str = "", hp:int = 100, stamina:int = 20): #Sets up player stats 
+    def __init__(self, name:str = "", hp:int = 100, stamina:int = 100, attack: int = 100, sp_attack:int = 100): #Sets up player stats 
         self.name = name
         self.hp = hp
         self.stamina = stamina
+        self.attack = attack
+        self.sp_attack = sp_attack
         self.inventory = Inventory()
 
     def restore_hp(self, amount: int = 10) -> None:
