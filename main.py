@@ -1,3 +1,5 @@
+#Original Author: u/gonano4
+
 print("Unknown:Hello, welcome to the fantastic world of Ksea,what is your name?")
 name=input()
 print(name+",","a great name for and adventurer,i am Valder, The Master of the fire")
