@@ -23,11 +23,11 @@ class Gameplay:
         if player_type == "Special":
             player = Player(name = player_name, attack = 25, sp_attack = 50)
             print("Valder: Great! You can have this Spellbook, it's about flames")
-            player.inventory.add(Item("Flame Spellbook", 50))
+            player.inventory.add(Item("Flame Spellbook", 50, 50))
         else:
             player = Player(name = player_name, attack = 50, sp_attack = 25)
             print("Valder: Then have this Iron Sword, it will keep you safe")
-            player.inventory.add(Item("Iron Sword", 50))
+            player.inventory.add(Item("Iron Sword", 50, 50))
 
         file = open("save_file.sav", "wb")
         pickle.dump(player, file)
