@@ -37,7 +37,7 @@ class Gameplay:
 
     def get_name(self) -> None:
         name = input("Unknown: Hello, welcome to the fantastic world of Ksea!\nPlease tell me your name: ")
-        print("{}, a great name for and adventurer!\nI am Valder, The Master of the fire".format(name))
+        print("{}, a great name for an adventurer!\nI am Valder, The Master of the fire".format(name))
         return name
 
     def get_type(self) -> None:
