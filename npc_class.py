@@ -1,4 +1,4 @@
-#Author: u/gonano4
+#Authors: u/gonano4, Kevin C. Escobedo
 
 #TODO:
 #Should we make race into a class?
@@ -9,3 +9,7 @@ class NPC:
         self.name = name
         self.race = race
         self.life = life
+
+    def speak(self, dialogue:str):
+        '''Returns dialogue for NPC to say'''
+        return dialogue
