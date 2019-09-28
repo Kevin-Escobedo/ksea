@@ -12,3 +12,6 @@ class Enemy(NPC):
         #Maybe include different attacks based on race?
         return random.randrange(5,16) #Change later
 
+    def item_drop(self):
+        return #Add random item later
+
