@@ -2,6 +2,7 @@
 #Email: escobedo001@gmail.com
 
 from npc_class import NPC
+import random
 
 class Enemy(NPC):
     def __init__(self, name:str, race:str, life:float):
@@ -9,5 +10,5 @@ class Enemy(NPC):
 
     def attack(self):
         #Maybe include different attacks based on race?
-        return 5 #Change later
+        return random.randrange(5,16) #Change later
 
