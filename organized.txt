@@ -1,0 +1,30 @@
+Iron Sword					
+50					
+100					
+Flame Spellbook					
+60					
+-1					
+Axe					
+60					
+110					
+Mace					
+65					
+130					
+Ice Spellbook					
+70					
+-1					
+Wolf Spellbook					
+75					
+-1					
+Leather Armour					
+40					
+60					
+Leather Boots					
+20					
+50					
+Leather Gauntlets					
+15					
+35					
+Leather Hood					
+10					
+15					

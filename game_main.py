@@ -23,11 +23,11 @@ class Gameplay:
         if player_type == "Special":
             player = Player(name = player_name, attack = 25, sp_attack = 50)
             print("Valder: Great! You can have this Spellbook, it's about flames")
-            player.inventory.add(Item("Flame Spellbook", 50))
+            player.inventory.add(Item("Flame Spellbook", 50, 50))
         else:
             player = Player(name = player_name, attack = 50, sp_attack = 25)
             print("Valder: Then have this Iron Sword, it will keep you safe")
-            player.inventory.add(Item("Iron Sword", 50))
+            player.inventory.add(Item("Iron Sword", 50, 50))
 
         file = open("save_file.sav", "wb")
         pickle.dump(player, file)
@@ -37,7 +37,7 @@ class Gameplay:
 
     def get_name(self) -> None:
         name = input("Unknown: Hello, welcome to the fantastic world of Ksea!\nPlease tell me your name: ")
-        print("{}, a great name for and adventurer!\nI am Valder, The Master of the fire".format(name))
+        print("{}, a great name for an adventurer!\nI am Valder, The Master of the fire".format(name))
         return name
 
     def get_type(self) -> None:
